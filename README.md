@@ -13,10 +13,10 @@ cnDNN == 8.2
 
 * Essential installation
 ```sh
- - pip install opencv-python
+ - conda install -c conda-forge dlib
+ - pip install opencv-contrib-python
  - pip install cvlib
  - pip install tensorflow-gpu==2.5.0
- - pip install cmake
 ```
   * to install cmake, you have to install Visual Studio from https://visualstudio.microsoft.com/ko/downloads/
   * you have to check Visual C++ Cmake tool from upside installation
@@ -24,6 +24,8 @@ cnDNN == 8.2
 - Selective installation
 ```sh
  - pip install face_recognition
+ - pip install pandas
+ - pip install openpyxl
 ```
 
 * let's go
