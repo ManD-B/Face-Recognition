@@ -2,7 +2,7 @@
 
 ## 2021-06-29~
 
-- ✨ Completely styled UI, including all controls
+- ✨ Search the face location & match information in your DB
 
 ## Installation
 - Set computer version
@@ -17,15 +17,12 @@ cnDNN == 8.2
  - pip install tensorflow-gpu==2.5.0
  - pip install cmake
 ```
-+ to install cmake, you have to install Visual Studio from https://visualstudio.microsoft.com/ko/downloads/
-+ you have to check Visual C++ Cmake tool from upside installation
+  - to install cmake, you have to install Visual Studio from https://visualstudio.microsoft.com/ko/downloads/
+  - you have to check Visual C++ Cmake tool from upside installation
 
 - Selective installation
 ```sh
  - pip install face_recognition
- - pip install pandas
- - pip install kivy
- - pip install yautogui
 ```
 
 * let's go
